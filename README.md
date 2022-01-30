@@ -1,7 +1,7 @@
 # Playerheads
 A Minecraft Datapack which allows players to get custom playerheads by using a name or a texture string. Also player will drop their head upon death.
 
-##Usage
+## Usage
 Take a Book and Quill and paste a playername or a texture string of a playerhead onto the first page of the book.
 Place the Book and Quill in your offhand and a playerhead, crafted from the crafting table, in your mainhand.
 Type /trigger Playerhead
