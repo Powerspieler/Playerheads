@@ -1,0 +1,17 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{SkullOwner:{Id:[I;-1121419518,2067529689,-982738485,263170875]}}"
+  },
+  {
+    "function": "minecraft:copy_nbt",
+    "source": "this",
+    "ops": [
+      {
+        "source": "Inventory.[{Slot:-106b}].tag.pages.[0]",
+        "target": "SkullOwner.Name",
+        "op": "replace"
+      }
+    ]
+  }
+]
