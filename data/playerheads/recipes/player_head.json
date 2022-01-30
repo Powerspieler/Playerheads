@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "+++",
+    "+#+",
+    "+++"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:bone_block"
+    },
+    "+": {
+      "item": "minecraft:rotten_flesh"
+    }
+  },
+  "result": {
+    "item": "minecraft:player_head",
+    "count": 4
+  }
+}

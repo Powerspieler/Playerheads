@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "playerheads:player_head"
+    ]
+  },
+  "criteria": {
+    "has_player_head": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:player_head"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "playerheads:player_head"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_player_head",
+      "has_the_recipe"
+    ]
+  ]
+}
